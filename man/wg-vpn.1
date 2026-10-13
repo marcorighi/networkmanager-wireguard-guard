@@ -1,0 +1,41 @@
+.TH WG-VPN 1 "October 2026" "NetworkManager WireGuard Guard" "User Commands"
+.SH NAME
+wg-vpn \- manage protected full and split WireGuard tunnels
+.SH SYNOPSIS
+.B wg-vpn
+{homeLAN|workLAB} {full|split|stop|check}
+.br
+.B wg-vpn
+{status|gui|--help|--version}
+.SH DESCRIPTION
+For full tunnel mode, install an nftables output guard before NetworkManager activates the interface.
+Split tunnel mode retains ordinary Internet access via the physical network.
+The guest-network indicator represents direct Internet routing permission, not physical packet counts.
+.SH CONFIGURATION
+/etc/networkmanager-wireguard-guard/sites.json is an administrator-maintained configuration file.
+Never publish operational endpoints, keys, addresses, or backups.
+.SH COMMANDS
+.TP
+.B full
+Pre-arm the guard and activate the selected full-tunnel profile.
+.TP
+.B split
+Activate the selected split-tunnel profile.
+.TP
+.B stop
+Intentionally disconnect the managed full tunnel and release the guard.
+.TP
+.B check
+Read-only verification of profile and firewall prerequisites.
+.TP
+.B status
+Display connection and guard status.
+.TP
+.B gui
+Open the XFCE two-LED dashboard.
+.SH SECURITY
+Never activate a full-tunnel connection directly in NetworkManager's menu.
+Physical LAN traffic, DHCP and encrypted WireGuard transport may be allowed.
+IPv6, roaming and SSH policy require site-specific validation.
+.SH RECOVERY
+From a local console: sudo wg-guard-reset
