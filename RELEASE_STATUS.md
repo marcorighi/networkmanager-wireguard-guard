@@ -10,9 +10,10 @@
 - [ ] Linux network-namespace / VM network fault-injection tests completed.
 - [ ] Full DNS leak and IPv4/IPv6 roaming tests completed.
 - [ ] Mandatory code and licensing review by author completed.
-- [x] GitHub repository created privately.
-- [x] First GitHub upload verified: 25 text-only files in private repository.
-- [ ] Public visibility enabled after author review.
-- [ ] GitHub release tag, Zenodo report record, DOI assigned.
+- [x] GitHub repository created and made public (2026-10-13).
+- [x] First GitHub upload verified: 25 text-only files in the repository before documentation-only status corrections.
+- [x] Public visibility enabled by repository owner.
+- [ ] GitHub release tag created and tested.
+- [ ] Zenodo technical report deposited and DOI assigned.
 
 **No security certification, Linux deployment claim, or verified production readiness is implied by these checks.**
