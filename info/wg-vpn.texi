@@ -1,0 +1,23 @@
+\input texinfo
+@setfilename wg-vpn.info
+@settitle NetworkManager WireGuard Guard
+@documentencoding UTF-8
+@node Top
+@top NetworkManager WireGuard Guard
+@menu
+* Usage:: Commands
+* Security:: Threat model and limits
+@end menu
+@node Usage
+@chapter Usage
+@code{wg-vpn homeLAN full} and @code{wg-vpn workLAB full} install the guard before activating their NetworkManager profiles.
+@code{wg-vpn homeLAN split} and @code{wg-vpn workLAB split} leave ordinary Internet access via the physical connection.
+@code{wg-vpn homeLAN stop} disconnects the guarded full VPN and removes its protection intentionally.
+@code{wg-vpn status}, @code{wg-vpn --help}, and @code{wg-vpn gui} provide diagnostics and controls.
+@node Security
+@chapter Security and limitations
+The green guest LED means direct Internet routing is permitted. Physical interfaces still carry encrypted VPN transport and allowed LAN traffic when the guest LED is off.
+Always activate full tunnels through @code{wg-vpn}; direct NetworkManager activation bypasses pre-arming.
+IPv6 leakage protection, changing network interfaces, DNS re-resolution, and incoming SSH must be tested on the deployment system.
+Do not include real VPN keys, DNS endpoints or private IP addresses in a public repository.
+@bye
