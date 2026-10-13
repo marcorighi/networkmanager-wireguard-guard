@@ -1,0 +1,13 @@
+#!/bin/sh
+# Refresh guard rules after a physical connection changes.
+case "${2:-}" in
+    up|down|dhcp4-change|dhcp6-change|connectivity-change) ;;
+    *) exit 0 ;;
+esac
+if /usr/sbin/nft list table inet nm_wg_guard >/dev/null 2>&1; then
+    /usr/bin/systemd-run --quiet --no-block --collect \
+        --unit="wg-guard-refresh-$(date +%s%N)-$$" \
+        /usr/local/sbin/wg-guard refresh || \
+        logger -t wg-guard 'Failed to schedule guard refresh'
+fi
+exit 0
