@@ -36,7 +36,7 @@ Unit and static tests: `python3 -m unittest discover -s tests -v`. Tests must ne
 
 **CNR technical report DOI (pre-reserved): [`10.5281/zenodo.23347452`](https://doi.org/10.5281/zenodo.23347452).** The Zenodo record remains an unpublished draft; this DOI will become registered and resolvable after publication.
 
-The CNR report PDF and LaTeX are prepared for a separate Zenodo technical-report record with the pre-reserved DOI above. The record has not been published yet. These files are intentionally not part of this text-only source repository. Zenodo's GitHub integration displays a software DOI: [`10.5281/zenodo.23348086`](https://doi.org/10.5281/zenodo.23348086), separate from the technical-report DOI. Before citing an exact software release in a research paper, verify whether this is the version-specific DOI or the concept DOI and use the version-specific identifier for reproducibility. The report must also reference the actual tagged code revision.
+The CNR report PDF and LaTeX are prepared for a separate Zenodo technical-report record with the pre-reserved DOI above. The record has not been published yet. These files are intentionally not part of this text-only source repository. **Archived software release (version-specific DOI):** [`10.5281/zenodo.23348086`](https://doi.org/10.5281/zenodo.23348086), for tag `v0.1.2-public-candidate` at commit `7419fe9243ea36ce91456482e057b68500cae269`. **Concept DOI (all software versions):** [`10.5281/zenodo.23348085`](https://doi.org/10.5281/zenodo.23348085). These identifiers are distinct from the technical-report DOI. For exact reproducibility, cite the version-specific DOI and tagged commit; the separately prepared report remains an unpublished Zenodo draft.
 
 ## License
 
