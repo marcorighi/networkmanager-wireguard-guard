@@ -1,0 +1,21 @@
+{
+  "ssh_port": 22,
+  "sites": {
+    "homeLAN": {
+      "full_profile": "wg-homeLAN",
+      "split_profile": "wg-homeLAN-split",
+      "interface": "wg-homeLAN",
+      "fwmark": "0xc101",
+      "endpoint_host": "home.example.invalid",
+      "endpoint_port": 51820
+    },
+    "workLAB": {
+      "full_profile": "wg-workLAB",
+      "split_profile": "wg-workLAB-split",
+      "interface": "wg-workLAB",
+      "fwmark": "0xc102",
+      "endpoint_host": "work.example.invalid",
+      "endpoint_port": 51820
+    }
+  }
+}
