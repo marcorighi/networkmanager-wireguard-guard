@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this source code, cite the versioned repository; the companion CNR technical report will have a separate Zenodo DOI."
+title: "NetworkManager WireGuard Guard"
+type: software
+authors:
+  - family-names: Righi
+    given-names: Marco
+    affiliation: "National Research Council of Italy (CNR-IFC)"
+repository-code: "https://github.com/marcorighi/networkmanager-wireguard-guard"
+license: MIT
+version: "0.1.2-public-candidate"
+keywords:
+  - NetworkManager
+  - WireGuard
+  - nftables
+  - VPN
+  - fail-closed
