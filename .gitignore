@@ -1,0 +1,27 @@
+# Never add private configuration or secrets
+*.conf
+*.key
+*.private
+*.pub
+*.png
+*.jpg
+*.jpeg
+*.qr
+*.zip
+*.tgz
+*.tar*
+*.gpg
+*.sqlite
+*.db
+*.log
+*backup*
+*secret*
+*credential*
+*token*
+__pycache__/
+*.pyc
+.venv/
+.env*
+/etc/
+sites.json
+!sites.example.json
