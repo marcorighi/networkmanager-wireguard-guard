@@ -17,6 +17,7 @@
 - [x] Zenodo GitHub integration displays software DOI `10.5281/zenodo.23348086`.
 - [x] Zenodo Versions panel confirms version-specific DOI `10.5281/zenodo.23348086` for tag `v0.1.2-public-candidate` and concept DOI `10.5281/zenodo.23348085` for all versions (2026-10-13).
 - [ ] Independent verification of the archived source contents against the GitHub tag.
-- [ ] Zenodo technical report published and its pre-reserved DOI registered.
+- [x] Author supplied technical-report Zenodo record URL `https://zenodo.org/records/23347452` with DOI `10.5281/zenodo.23347452`.
+- [ ] Independently inspect the report record's public metadata, file contents and DOI resolution (Zenodo unavailable to automated verification at the time of this update).
 
 **No security certification, Linux deployment claim, or verified production readiness is implied by these checks.**
