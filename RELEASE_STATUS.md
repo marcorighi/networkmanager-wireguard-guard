@@ -13,7 +13,9 @@
 - [x] GitHub repository created and made public (2026-10-13).
 - [x] First GitHub upload verified: 25 text-only files in the repository before documentation-only status corrections.
 - [x] Public visibility enabled by repository owner.
-- [ ] GitHub release tag created and tested.
+- [x] GitHub release `v0.1.2-public-candidate` published with release notes; tag points to commit `7419fe9243ea36ce91456482e057b68500cae269`.
+- [x] Zenodo GitHub integration displays software DOI `10.5281/zenodo.23348086`.
+- [ ] Confirm whether the displayed DOI is version-specific or the concept DOI; verify the software archive metadata against the tag.
 - [ ] Zenodo technical report published and its pre-reserved DOI registered.
 
 **No security certification, Linux deployment claim, or verified production readiness is implied by these checks.**
