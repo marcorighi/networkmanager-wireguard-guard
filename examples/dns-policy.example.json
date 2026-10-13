@@ -1,0 +1,13 @@
+{
+  "_NOTICE": "Documentation-only placeholders; this file is NOT loaded by the application or NetworkManager.",
+  "homeLAN": {
+    "vpn_dns_ip": "VPN_DNS_IP",
+    "local_dns_ip": "LOCAL_DNS_IP",
+    "vpn_dns_domain": "VPN_DNS_DOMAIN"
+  },
+  "workLAB": {
+    "vpn_dns_ip": "VPN_DNS_IP",
+    "local_dns_ip": "LOCAL_DNS_IP",
+    "vpn_dns_domain": "VPN_DNS_DOMAIN"
+  }
+}
