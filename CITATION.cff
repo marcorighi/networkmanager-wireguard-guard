@@ -9,6 +9,8 @@ authors:
 repository-code: "https://github.com/marcorighi/networkmanager-wireguard-guard"
 license: MIT
 version: "0.1.2-public-candidate"
+doi: 10.5281/zenodo.23348086
+date-released: 2026-10-13
 keywords:
   - NetworkManager
   - WireGuard
