@@ -15,7 +15,8 @@
 - [x] Public visibility enabled by repository owner.
 - [x] GitHub release `v0.1.2-public-candidate` published with release notes; tag points to commit `7419fe9243ea36ce91456482e057b68500cae269`.
 - [x] Zenodo GitHub integration displays software DOI `10.5281/zenodo.23348086`.
-- [ ] Confirm whether the displayed DOI is version-specific or the concept DOI; verify the software archive metadata against the tag.
+- [x] Zenodo Versions panel confirms version-specific DOI `10.5281/zenodo.23348086` for tag `v0.1.2-public-candidate` and concept DOI `10.5281/zenodo.23348085` for all versions (2026-10-13).
+- [ ] Independent verification of the archived source contents against the GitHub tag.
 - [ ] Zenodo technical report published and its pre-reserved DOI registered.
 
 **No security certification, Linux deployment claim, or verified production readiness is implied by these checks.**
