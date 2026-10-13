@@ -36,7 +36,7 @@ Unit and static tests: `python3 -m unittest discover -s tests -v`. Tests must ne
 
 **CNR technical report (Zenodo DOI): `DOI_PENDING_ZENODO`.**
 
-The CNR report PDF and LaTeX are deposited separately on Zenodo and are intentionally not part of this text-only source repository. A separate Zenodo software DOI, if assigned in future, is a different scholarly object. The report must reference the actual published code revision.
+The CNR report PDF and LaTeX will be deposited separately on Zenodo; no report DOI has yet been assigned. The files are intentionally not part of this text-only source repository. A separate Zenodo software DOI, if assigned in future, is a different scholarly object. The report must reference the actual published code revision.
 
 ## License
 
