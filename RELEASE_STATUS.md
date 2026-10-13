@@ -6,11 +6,13 @@
 - [x] Technical report DOI placeholder present; no DOI assigned yet.
 - [x] Generic DNS placeholders and standard-port examples, with configurable local SSH TCP port.
 - [x] CLI, GUI, guard, dispatcher, emergency recovery and docs included as reviewable source.
+- [x] Static/unit tests: 14/14 passed locally twice (not live VPN security tests).
 - [ ] Linux network-namespace / VM network fault-injection tests completed.
 - [ ] Full DNS leak and IPv4/IPv6 roaming tests completed.
 - [ ] Mandatory code and licensing review by author completed.
 - [x] GitHub repository created privately.
-- [ ] First commit uploaded and verified.
+- [x] First GitHub upload verified: 25 text-only files in private repository.
+- [ ] Public visibility enabled after author review.
 - [ ] GitHub release tag, Zenodo report record, DOI assigned.
 
 **No security certification, Linux deployment claim, or verified production readiness is implied by these checks.**
